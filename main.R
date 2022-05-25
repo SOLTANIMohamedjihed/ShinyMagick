@@ -24,8 +24,6 @@ ui <- fluidPage(
 
 server <- function(input, output, session) {
 
-  library(magick)
-
   # Start with placeholder img
   image <- image_read("https://avatars.githubusercontent.com/u/87778186?v=4")
 
